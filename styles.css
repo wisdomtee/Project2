@@ -1,0 +1,32 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 10px;
+}
+nav {
+  background-color: #333;
+  padding: 10px 0;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+nav ul li {
+  display: inline;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+}
+nav ul li a:hover {
+  background-color: #ec3535;
+}
+main {
+  color: rgb(182, 27, 27);
+  font: 'Roboto', sans-serif;
+}
+  
